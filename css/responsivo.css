@@ -1,0 +1,470 @@
+@media screen and (min-width: 1025px) {
+  .menu-lateral {
+    display: none !important;
+  }
+
+  .top-nav {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .header,
+  .menu-nubank,
+  .main-content,
+  .container-cartao,
+  .container-nubank-ultravioleta,
+  .container-conta-nubank,
+  .container-conta-pj,
+  .container-financeiro,
+  .container-community,
+  .container-emergencia,
+  .financeiro,
+  .community,
+  .emergencia,
+  .footer,
+  .footer-final,
+  .footer-linguagem,
+  footer,
+  .container-footer {
+    width: auto !important;
+  }
+
+  .main-content {
+    background-image: url(../img/home-nubank-tablet.svg);
+  }
+
+  .header {
+    display: none;
+  }
+
+  .menu-nubank {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .main-content {
+    height: 1318px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 72px 24px;
+  }
+
+  .main-content .text {
+    margin-left: 16px;
+  }
+
+  .form {
+    align-self: flex-end;
+    margin-bottom: 80px;
+  }
+
+  .container-tablet {
+    padding: 0px 24px !important;
+  }
+
+  .cartao-tablet {
+    width: 448px;
+    height: 430px;
+    padding-top: 5px;
+  }
+
+  .container-cartao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .container-nubank-ultravioleta {
+    width: 100%;
+    height: 1366px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .container .text {
+    max-width: 55%;
+    color: #fff;
+  }
+
+  .img-ultravioleta-tablet {
+    width: 608px;
+    height: 587px;
+    margin-bottom: 237px;
+  }
+
+  .container-ultravioleta-img {
+    align-self: flex-end;
+  }
+
+  .nubank-ultravioleta-title {
+    margin-top: 63px;
+  }
+
+  .container-conta-nubank {
+    height: 956px;
+  }
+
+  .container-conta-pj {
+    height: 1366px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .container-conta-pj .text-pj {
+    max-width: 65%;
+  }
+  .container-pj-img {
+    align-self: flex-end;
+  }
+
+  .margin-top-tablet {
+    margin: 60px 0 0 0;
+  }
+
+  .container-conta-pj .text-pj {
+    margin: 0px;
+  }
+
+  .container-pj-img > img {
+    margin: 0;
+    margin-bottom: 237px;
+  }
+
+  .container-link {
+    margin-top: 40px !important;
+  }
+
+  .container-financeiro {
+    height: 576px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .container .text {
+    max-width: 55% !important;
+    margin-top: 46px;
+  }
+
+  .financeiro {
+    background-image: url("../img/financeiro-mobile.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+
+  .margin-width {
+    margin: 0px;
+  }
+
+  .container-community {
+    height: 576px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .container-emergencia {
+    height: 576px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .emergencia {
+    background-image: url("../img/emergencia.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* footer */
+  .footer-cool {
+    width: 50%;
+  }
+
+  .title-footer {
+    margin-top: 55px;
+  }
+
+  .footer-final {
+    height: 339px;
+    width: 100%;
+    background-color: #111111;
+    border-top: 1px solid #191919;
+    border-bottom: 1px solid #191919;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .text-footer {
+    display: flex;
+    align-items: flex-start;
+    width: 58%;
+    margin-top: 80px;
+    margin-left: 60px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .container-footer-media {
+    width: 944px;
+    height: 25.75px;
+    margin-left: 73px;
+    margin-top: 48px;
+    justify-content: flex-start;
+  }
+
+  .text-footer p {
+    margin-left: 5px;
+    margin-top: 47px;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  .header,
+  .menu-nubank,
+  .main-content,
+  .container-cartao,
+  .container-nubank-ultravioleta,
+  .container-conta-nubank,
+  .container-conta-pj,
+  .container-financeiro,
+  .container-community,
+  .container-emergencia,
+  .financeiro,
+  .community,
+  .emergencia,
+  .footer,
+  .footer-final,
+  .footer-linguagem,
+  footer,
+  .container-footer {
+    width: auto !important;
+  }
+
+  h1,
+  h4 {
+    font-size: 30px !important;
+  }
+
+  h3,
+  h2 {
+    font-size: 20px !important;
+  }
+
+  h5 {
+    font-size: 24px !important;
+  }
+
+  .nav-list {
+    height: 850px;
+  }
+  .nav-list li {
+    margin-top: 48px;
+    font-size: 36px !important;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .menu-nubank {
+    display: none;
+  }
+
+  .login {
+    display: none;
+  }
+
+  .container-link > a {
+    font-size: 18px;
+  }
+
+  .container .text {
+    max-width: 100% !important;
+    margin-top: 0;
+    margin-bottom: 39px;
+  }
+
+  .main-content {
+    justify-content: flex-end;
+    background-image: url("../img/home-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 833px;
+  }
+
+  .main-content .text {
+    max-width: none;
+  }
+
+  .form {
+    margin-bottom: 48px;
+  }
+
+  .container {
+    padding: 0px 24px !important;
+  }
+  .container .text {
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .container-cartao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cartao-tablet {
+    width: 342px;
+    height: 328px;
+    margin-bottom: 34px;
+  }
+
+  .title-cartao {
+    margin-top: 63px;
+  }
+
+  .container-nubank-ultravioleta {
+    height: 682px;
+  }
+
+  .img-ultravioleta-tablet {
+    width: 342px;
+    height: 330px;
+    margin-top: 25px;
+  }
+
+  .container-cartao {
+    height: 736px;
+  }
+
+  .nubank-ultravioleta-title {
+    margin-top: 63px;
+  }
+  .subtitle-nubank-ultravioleta {
+    font-size: 30px !important;
+    font-weight: 700;
+  }
+
+  .container-conta-nubank {
+    height: 764px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .conta-nubank-text {
+    margin-top: 150px !important;
+  }
+
+  .conta-nubank-text h5 {
+    font-size: 30px !important;
+  }
+
+  .container-conta-pj {
+    height: 683px;
+  }
+
+  .conta-pj-subtitle {
+    font-size: 30px !important;
+  }
+
+  .container-pj-img > img {
+    width: 342px;
+    height: 330px;
+  }
+
+  .container-conta-pj .text-pj {
+    max-width: 100%;
+  }
+
+  .container-pj-img {
+    margin-top: 25px;
+  }
+
+  .container-financeiro {
+    height: 456px;
+  }
+
+  .text-financeiro {
+    margin-top: 49px !important;
+  }
+  .container-community {
+    height: 456px;
+  }
+
+  .community {
+    background-image: url(../img/community-mobile.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+
+  .subtitle-nucommunity {
+    font-size: 30px !important;
+  }
+
+  .text-community {
+    margin-top: 39px !important;
+  }
+
+  .text-emergencia {
+    margin-top: 47.5px !important;
+  }
+
+  .emergencia {
+    background-image: url(../img/emergencia-mobile.webp);
+    background-position: center;
+  }
+
+  .footer-cool {
+    width: 100%;
+  }
+
+  .footer-final {
+    height: 386px;
+  }
+
+  .text-footer {
+    margin-left: 24px;
+    width: 100%;
+  }
+
+  .title-nubank-footer {
+    margin-top: 0px;
+  }
+  .linguagem-footer {
+    justify-content: flex-start;
+    margin-left: 24px;
+  }
+
+  .container-footer {
+    margin-left: -16px;
+  }
+}
